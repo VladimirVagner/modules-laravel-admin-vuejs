@@ -1,0 +1,5 @@
+<?php
+
+Route::group(['prefix' => 'DummyRoutePrefix', 'middleware' => [], 'namespace' => 'DummyNamespace', 'as' => 'DummyAs'], function () {
+    Route::resource('DummyModelVariable', 'DummyClass');
+});

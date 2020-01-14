@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+use Illuminate\Support\Facades\Auth;
+
+Route::group( ['namespace' => 'Http\Controllers'], function() {
+    Route::get('/', function () {
+        return view('welcome');
+    })->name('default');
+
+    Route::get('/home', 'HomeController@index')->name('home');
 });
