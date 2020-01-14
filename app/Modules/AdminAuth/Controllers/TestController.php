@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Auth\Controllers;
+namespace App\Modules\AdminAuth\Controllers;
 
 
 class TestController extends BaseController
@@ -12,7 +12,7 @@ class TestController extends BaseController
      */
     public function index()
     {
-        return view('Auth::index');
+        return view('AdminAuth::index');
     }
 
     /**

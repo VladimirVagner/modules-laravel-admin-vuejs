@@ -10,6 +10,6 @@
 
 <h1>Наш модуль:</h1>
 
-{{ trans('Auth::auth.failed')}}
+{{ trans('AdminAuth::auth.failed')}}
 </body>
 </html>
