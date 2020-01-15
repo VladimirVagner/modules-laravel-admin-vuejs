@@ -14,6 +14,16 @@ class ModulesServiceProvider extends ServiceProvider {
         $modules = config("module.modules");
         if($modules)
             $this->getModules($modules);
+        //Загружаем View и routes Admin view('Admin::name')
+        if(is_dir(__DIR__.'/Admin/resources/views')) {
+            $this->loadViewsFrom(__DIR__.'/Admin/resources/views', 'Admin');
+        }
+        if(file_exists(__DIR__.'/Admin/routes/web.php')) {
+            $this->loadRoutesFrom(__DIR__.'/Admin/routes/web.php');
+        }
+        if(file_exists(__DIR__.'/Admin/routes/api.php')) {
+            $this->loadRoutesFrom(__DIR__.'/Admin/routes/api.php');
+        }
     }
 
     public function register() {
@@ -45,7 +55,7 @@ class ModulesServiceProvider extends ServiceProvider {
             $this->loadMigrationsFrom(__DIR__.$module.'/migration');
         }
 
-        //Загружаем View view('Test::admin')
+        //Загружаем View view('Namespace::name')
         if(is_dir(__DIR__.$module.'/Views')) {
             $this->loadViewsFrom(__DIR__.$module.'/Views', $module);
         }
