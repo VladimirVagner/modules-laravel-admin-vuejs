@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef683f7-da7c-47a2-aea4-433aee6f65c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/user.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/admin-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/admin-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpstorm.meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/.phpstorm.meta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_ide_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/AdminAuth/Controllers/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Admin/Auth/Controllers/BaseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/AdminAuth/Controllers/ConfirmPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Admin/Auth/Controllers/ConfirmPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/AdminAuth/Controllers/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Admin/Auth/Controllers/ForgotPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/AdminAuth/Controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Admin/Auth/Controllers/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/AdminAuth/Controllers/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Admin/Auth/Controllers/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/AdminAuth/Controllers/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Admin/Auth/Controllers/ResetPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/AdminAuth/Controllers/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Admin/Auth/Controllers/TestController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/AdminAuth/Controllers/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Admin/Auth/Controllers/VerificationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/AdminAuth/Views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Admin/Auth/Views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/AdminAuth/lang/en/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/AdminAuth/lang/en/pagination.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/AdminAuth/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Admin/Auth/lang/ru/passwords.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/AdminAuth/lang/en/validation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/AdminAuth/routes/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/AdminAuth/routes/web.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Modules/ModulesServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/ModulesServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/module.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/module.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,11 +155,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Modules/Admin" />
       <recent name="$PROJECT_DIR$/app/Modules" />
       <recent name="$PROJECT_DIR$/app/Modules/Admin/Auth/Views" />
       <recent name="$PROJECT_DIR$/app/Modules/Admin/Auth/lang/ru" />
       <recent name="$PROJECT_DIR$/app/Modules/Admin/Auth/Controllers" />
-      <recent name="$PROJECT_DIR$/app/Modules/Auth" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/Modules/Admin/Middleware" />
@@ -249,7 +214,8 @@
       <workItem from="1578963883360" duration="8822000" />
       <workItem from="1578974042727" duration="981000" />
       <workItem from="1578979975779" duration="131000" />
-      <workItem from="1578980139770" duration="25926000" />
+      <workItem from="1578980139770" duration="26432000" />
+      <workItem from="1579065191102" duration="882000" />
     </task>
     <servers />
   </component>
@@ -273,22 +239,22 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="417" y="122" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.732@0.0.1366.732" timestamp="1578971821537" />
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1579007216792">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1579010438617">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1579007216792" />
-    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1579007216792">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1579010438617" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1579010438617">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1579007216792" />
-    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1579007216791">
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1579010438617" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1579010438617">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1579007216791" />
-    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1579007216792">
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1579010438617" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1579010438617">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1579007216792" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1579010438617" />
     <state x="704" y="414" key="NewPhpFileDialog" timestamp="1579009247000">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
